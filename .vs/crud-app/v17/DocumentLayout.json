@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|c:\\users\\lenovo\\documents\\github\\reactjs-asp-.net-core-web-api-crud\\backend\\crud-app\\crud-app\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|c:\\users\\lenovo\\documents\\github\\reactjs-asp-.net-core-web-api-crud\\backend\\crud-app\\crud-app\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|c:\\users\\lenovo\\documents\\github\\reactjs-asp-.net-core-web-api-crud\\backend\\crud-app\\crud-app\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|c:\\users\\lenovo\\documents\\github\\reactjs-asp-.net-core-web-api-crud\\backend\\crud-app\\crud-app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|c:\\users\\lenovo\\documents\\github\\reactjs-asp-.net-core-web-api-crud\\backend\\crud-app\\crud-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|c:\\users\\lenovo\\documents\\github\\reactjs-asp-.net-core-web-api-crud\\backend\\crud-app\\crud-app\\migrations\\20240408205833_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8645467C-2BD9-4DAA-94C1-43D42208152E}|crud-app\\crud-app.csproj|solutionrelative:crud-app\\migrations\\20240408205833_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240408205833_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Migrations\\20240408205833_initial.cs",
+              "RelativeDocumentMoniker": "crud-app\\Migrations\\20240408205833_initial.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Migrations\\20240408205833_initial.cs",
+              "RelativeToolTip": "crud-app\\Migrations\\20240408205833_initial.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:58:33.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Models\\StudentContext.cs",
+              "RelativeDocumentMoniker": "crud-app\\Models\\StudentContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Models\\StudentContext.cs",
+              "RelativeToolTip": "crud-app\\Models\\StudentContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:39:52.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "crud-app\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Models\\Student.cs",
+              "RelativeToolTip": "crud-app\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:39:37.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\appsettings.json",
+              "RelativeDocumentMoniker": "crud-app\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\appsettings.json",
+              "RelativeToolTip": "crud-app\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T16:02:46.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Program.cs",
+              "RelativeDocumentMoniker": "crud-app\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Program.cs",
+              "RelativeToolTip": "crud-app\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:02:44.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "crud-app\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\reactjs-asp-.net-core-web-api-crud\\Backend\\crud-app\\crud-app\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "crud-app\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:02:30.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
