@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 COPY *.sln ./
-COPY crud-app/*.csproj ./crud-app/
+COPY . ./
 RUN dotnet restore
 
 # Copy the rest of the source code
