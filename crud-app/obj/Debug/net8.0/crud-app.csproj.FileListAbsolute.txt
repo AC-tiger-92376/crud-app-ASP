@@ -346,3 +346,4 @@ E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\
 E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.pdb
 E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.genruntimeconfig.cache
 E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\ref\crud-app.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.sourcelink.json
