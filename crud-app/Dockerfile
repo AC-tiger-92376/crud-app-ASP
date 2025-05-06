@@ -1,19 +1,20 @@
-# Use the official .NET SDK image to build the app
+# Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Copy csproj and restore as distinct layers
-COPY *.sln ./
+# Copy .csproj file and restore as distinct layers
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copy the rest of the source code
+# Copy the rest of the code
 COPY . ./
-WORKDIR /app/crud-app
-RUN dotnet publish -c Release -o out
 
-# Build runtime image
+# Build and publish
+RUN dotnet publish -c Release -o /app/publish
+
+# Runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/crud-app/out ./
+COPY --from=build /app/publish .
+
 ENTRYPOINT ["dotnet", "crud-app.dll"]
