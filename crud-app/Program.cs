@@ -24,6 +24,7 @@ builder.Services.AddDbContext<StudentContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("StudentConnection")));
 */
 builder.Services.AddCors();
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
 var app = builder.Build();
 
@@ -42,7 +43,7 @@ app.UseCors(builder =>
     .AllowAnyHeader();
 });
 
-app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 

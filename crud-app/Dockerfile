@@ -1,20 +1,18 @@
-# Build stage
+# Stage 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy .csproj file and restore as distinct layers
-COPY *.csproj ./
-RUN dotnet restore
-EXPOSE 8080
-# Copy the rest of the code
-COPY . ./
+COPY *.sln ./
+COPY crud-app/*.csproj ./crud-app/
+RUN dotnet restore "./crud-app/crud-app.csproj"
 
-# Build and publish
+COPY . .
+WORKDIR /src/crud-app
 RUN dotnet publish -c Release -o /app/publish
 
-# Runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+# Stage 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-
 ENTRYPOINT ["dotnet", "crud-app.dll"]
+EXPOSE 8080
