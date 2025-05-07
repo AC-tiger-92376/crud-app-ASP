@@ -5,13 +5,13 @@ using DotNetEnv;
 var builder = WebApplication.CreateBuilder(args);
 
 Env.Load();
-
+/*
 // Set the connection string from the environment variable
 builder.Configuration["ConnectionStrings:DefaultConnection"] = 
     Environment.GetEnvironmentVariable("DefaultConnection");
-
+*/
 builder.Services.AddDbContext<StudentContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(Environment.GetEnvironmentVariable("DefaultConnection")));
 
 // Add services to the container.
 

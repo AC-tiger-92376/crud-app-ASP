@@ -5,7 +5,7 @@ WORKDIR /src
 # Copy .csproj file and restore as distinct layers
 COPY *.csproj ./
 RUN dotnet restore
-
+EXPOSE 8080
 # Copy the rest of the code
 COPY . ./
 
