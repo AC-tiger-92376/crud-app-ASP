@@ -16,11 +16,49 @@ namespace crud_app.Controllers
             _studentContext = studentContext;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetStudent()
+         [HttpGet]
+        public async Task<IActionResult> GetStudent(
+            string? search,
+            string? sort = "name",
+            string? order = "asc",
+            int page = 1,
+            int pageSize = 10)
         {
-            var student = await _studentContext.Students.ToListAsync();
-            return Ok(student);
+            var query = _studentContext.Students.AsQueryable();
+
+            // Search
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(p => p.FirstName.Contains(search));
+            }
+
+            // Sorting
+            query = (sort.ToLower(), order.ToLower()) switch
+            {
+                ("firstname", "asc") => query.OrderBy(p => p.FirstName),
+                ("firstname", "desc") => query.OrderByDescending(p => p.FirstName),
+                ("age", "asc") => query.OrderBy(p => p.Age),
+                ("age", "desc") => query.OrderByDescending(p => p.Age),
+                ("email", "asc") => query.OrderBy(p => p.Email),
+                ("email", "desc") => query.OrderByDescending(p => p.Email),
+                ("address", "asc") => query.OrderBy(p => p.Address),
+                ("address", "desc") => query.OrderByDescending(p => p.Address),
+                ("city", "asc") => query.OrderBy(p => p.City),
+                ("city", "desc") => query.OrderByDescending(p => p.City),
+                _ => query.OrderBy(p => p.Id)
+            };
+
+            // Pagination
+            var total = await query.CountAsync();
+            var products = await query.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+
+            return Ok(new
+            {
+                total,
+                page,
+                pageSize,
+                data = products
+            });
         }
 
         [HttpGet("{id}")]
