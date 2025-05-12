@@ -347,3 +347,12 @@ E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\
 E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.genruntimeconfig.cache
 E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\ref\crud-app.dll
 E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.sourcelink.json
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\MyData\Work\React+.NET CORE\Start\Backend\crud-app\crud-app\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
