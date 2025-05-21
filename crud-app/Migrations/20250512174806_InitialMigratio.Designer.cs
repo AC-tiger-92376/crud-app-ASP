@@ -12,7 +12,7 @@ using crud_app.Models;
 namespace crud_app.Migrations
 {
     [DbContext(typeof(StudentContext))]
-    [Migration("20250512172710_InitialMigratio")]
+    [Migration("20250512174806_InitialMigratio")]
     partial class InitialMigratio
     {
         /// <inheritdoc />
